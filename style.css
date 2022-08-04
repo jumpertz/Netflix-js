@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 500px;
+    width: 100%;
+    background: linear-gradient(rgba(108, 108, 108, 0.5), rgba(55, 55, 55, 0.5)), url("images/img-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 70px 45px;
+    border-bottom: 8px solid #222;
+    margin-bottom: 0;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1 {
+    font-size: 3.12rem;
+    margin: 0 auto;
+    max-width: 640px;
+    line-height: 1.1;
+    letter-spacing: 0 !important;
+    text-align: center;
+    font-weight: 400;
+}
+
+.container h2 {
+    font-size: 1.625rem;
+    margin: 1rem auto;
+    max-width: 640px;
+    font-weight: 400;
+    letter-spacing: 0 !important;
+    text-align: center;
+}
+
+.container p {
+    font-size: 1.2rem;
+    max-width: none;
+    padding-bottom: 20px;
+    font-weight: 400;
+    margin: 0 auto;
+    padding: 0 5%;
+    letter-spacing: 0 !important;
+    text-align: center;
+    color: #fff;
+}
+
+.begin {
+    display: flex;
+    flex-direction: row;
+}
+
+.begin .begin-input {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    height: 60px !important;
+    min-width: 450px;
+}
+
+.begin-input::placeholder {
+    font-size: 16px;
+    color: #8c8c8c;
+    left: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: font .1s ease, top .1s ease, transform .1s ease;
+}
+
+.begin .begin-btn {
+    background-color: #f40612;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .45);
+    border: none;
+    border-bottom-left-radius: 0;
+    border-left: 1px solide #333;
+    border-top-left-radius: 0;
+    margin: 0 !important;
+    font-size: 1.65rem;
+    min-height: 60px;
+    padding: 0 1em;
+    align-items: center;
+    display: inline-flex;
+    flex-direction: row;
+    line-height: normal;
+    width: auto;
+    color: #fff;
+    cursor: pointer;
+}
